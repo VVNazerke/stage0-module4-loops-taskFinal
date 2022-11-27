@@ -12,7 +12,7 @@ public class Pyramid {
             for (int k = cathetusLength-1;k>=0;k--){
                 if(cathetusLength-k<=i-1){
                     System.out.print(""+ (cathetusLength-k+1));
-                }else System.out.print(" ");
+                }
             }
             System.out.println();
         }
